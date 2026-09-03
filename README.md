@@ -1,10 +1,10 @@
 # C 15m OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-34_589_rows-blue)](https://getdata.finance/datasets/c) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/c)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-35_161_rows-blue)](https://getdata.finance/datasets/c) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/c)
 
 ### -> [**Download the full C dataset on getdata.finance**](https://getdata.finance/datasets/c)
 
-**C 15m OHLCV us stocks historical data** — ultra high-quality 15m OHLCV for **C**. US equity cash and extended sessions — institutional-style OHLCV candles for US stocks. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**C 15m OHLCV stocks historical data** — ultra high-quality 15m OHLCV for **Citigroup**. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 15m OHLCV** for **C** (US stocks)
-- **US equity cash and extended sessions — institutional-style OHLCV candles for US stocks**
-- **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`15m`) · **9 timeframes** on [getdata.finance](https://getdata.finance/datasets/c) · **34,589** `1m` rows in the full archive
+- **Ultra high-quality 15m OHLCV** for **Citigroup** (US stocks)
+- **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
+- **Free evaluation sample** on GitHub (`15m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/c) · **35,161** `15m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `15m` sample updated in sync
 
-> **Sample on GitHub** · `C_15m.csv` (3,250 rows, `2026-02-02` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/c)** — **34,589** `1m` rows (~2.92 MB), **9 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W), `2021-04-06` -> `2026-07-31`.
+> **Sample on GitHub** · `C_15m.csv` (3,696 rows, `2026-02-06` -> `2026-09-01`, 366.12 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/c)** — **35,161** `15m` rows (full `1m`: 526,800), **11 timeframes**, `2021-04-06` -> `2026-09-01`.
 
 ## Download sample
 
@@ -44,22 +43,22 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/c))** |
 |---|--:|---|
-| Instrument | C · US stocks | C · US stocks |
-| Timeframes | `15m` (sample) | **9** — 1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W |
-| 1m rows | 3,250 | **34,589** |
-| Size | 0.30 MB | ~2.92 MB |
-| Period | `2026-02-02` -> `2026-07-31` | `2021-04-06` -> `2026-07-31` |
+| Instrument | Citigroup · US stocks | Citigroup · US stocks |
+| Timeframes | `15m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
+| 15m rows | 3,696 | **35,161** |
+| Size | 366.12 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/c) |
+| Period | `2026-02-06` -> `2026-09-01` | `2021-04-06` -> `2026-09-01` |
 | File | `C_15m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/c) |
 | Coverage report | — | [C coverage](https://getdata.finance/coverage/c) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
 
 ## Timeframes on GetData
 
-This GitHub repository ships a **`15m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/c)**, each full asset archive is delivered as a ZIP with **9 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`15m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/c)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **12H** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
-GitHub = `15m` sample · [getdata.finance](https://getdata.finance/datasets/c) = all **9** timeframes above for the same instrument.
+GitHub = `15m` sample · [getdata.finance](https://getdata.finance/datasets/c) = all **11** timeframes above for the same instrument.
 
 ## Weekly updates
 
@@ -74,29 +73,29 @@ First and latest rows from the GitHub sample **`C_15m.csv`**:
 
 **First rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-02T14:30:00+00:00 | 115.88 | 116.07 | 114.67 | 115.18 | 1768 |
-| 2026-02-02T14:45:00+00:00 | 115.18 | 116.15 | 115.18 | 115.82 | 1610 |
-| 2026-02-02T15:00:00+00:00 | 115.82 | 116.29 | 115.67 | 115.69 | 1705 |
-| 2026-02-02T15:15:00+00:00 | 115.69 | 116.01 | 115.59 | 115.69 | 1562 |
-| 2026-02-02T15:30:00+00:00 | 115.69 | 116.16 | 115.62 | 116 | 1531 |
+| 2026-02-06T20:00:00+00:00 | 122.28 | 122.42 | 122.17 | 122.23 | 590 |
+| 2026-02-06T20:15:00+00:00 | 122.23 | 122.4 | 122.02 | 122.07 | 828 |
+| 2026-02-06T20:30:00+00:00 | 122.07 | 122.56 | 122.03 | 122.42 | 864 |
+| 2026-02-06T20:45:00+00:00 | 122.42 | 122.95 | 122.28 | 122.88 | 1464 |
+| 2026-02-09T14:30:00+00:00 | 122.88 | 123.41 | 121.67 | 123.2 | 1703 |
 
 **Last rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-31T18:45:00+00:00 | 139.26 | 139.28 | 139.09 | 139.23 | 556 |
-| 2026-07-31T19:00:00+00:00 | 139.23 | 139.3 | 138.96 | 139.21 | 761 |
-| 2026-07-31T19:15:00+00:00 | 139.21 | 139.39 | 139.09 | 139.18 | 816 |
-| 2026-07-31T19:30:00+00:00 | 139.18 | 139.2 | 138.79 | 139.18 | 988 |
-| 2026-07-31T19:45:00+00:00 | 139.18 | 139.28 | 138.33 | 138.51 | 1861 |
+| 2026-09-01T18:45:00+00:00 | 138.14 | 138.45 | 138.13 | 138.32 | 561 |
+| 2026-09-01T19:00:00+00:00 | 138.32 | 138.7 | 138.31 | 138.69 | 411 |
+| 2026-09-01T19:15:00+00:00 | 138.69 | 138.83 | 138.48 | 138.5 | 453 |
+| 2026-09-01T19:30:00+00:00 | 138.5 | 138.52 | 138.03 | 138.14 | 663 |
+| 2026-09-01T19:45:00+00:00 | 138.14 | 138.63 | 138.1 | 138.6 | 1055 |
 
 ## Schema
 
 | Column | Description |
 | --- | --- |
-| `datetime` | Bar open timestamp (UTC, ISO-8601). |
+| `time` | Bar open timestamp (UTC, ISO-8601). |
 | `open` | Opening price of the candlestick bar. |
 | `high` | Highest price during the bar. |
 | `low` | Lowest price during the bar. |
@@ -104,7 +103,7 @@ First and latest rows from the GitHub sample **`C_15m.csv`**:
 | `volume` | Tick volume (number of price updates) during the bar. |
 
 ```text
-datetime,open,high,low,close,volume
+time,open,high,low,close,volume
 ```
 
 ## Code examples
@@ -114,11 +113,9 @@ datetime,open,high,low,close,volume
 ```python
 import pandas as pd
 
-df = pd.read_csv('C_15m.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('C_15m.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -127,8 +124,8 @@ print(df.resample('1h').agg({'open': 'first', 'high': 'max',
 import backtrader as bt
 import pandas as pd
 
-df = pd.read_csv('C_15m.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('C_15m.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 
 class PandasData(bt.feeds.PandasData):
     params = (('datetime', None), ('open', 'open'), ('high', 'high'),
@@ -146,20 +143,20 @@ cerebro.adddata(PandasData(dataname=df))
 import pandas as pd
 import vectorbt as vbt
 
-df = pd.read_csv('C_15m.csv', parse_dates=['datetime'])
-close = df.set_index('datetime')['close']
+df = pd.read_csv('C_15m.csv', parse_dates=['time'])
+close = df.set_index('time')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='15min')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **C** archive on **[getdata.finance](https://getdata.finance/datasets/c)** includes **9 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W) — **34,589** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **C** archive on **[getdata.finance](https://getdata.finance/datasets/c)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **35,161** rows at `15m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full C dataset on getdata.finance](https://getdata.finance/datasets/c)**
 
 ---
-*GetData · C 15m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/c) · 2026-08-05 UTC*
+*GetData · C 15m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/c)*
